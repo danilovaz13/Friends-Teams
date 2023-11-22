@@ -1,19 +1,8 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React from 'react';
-import {Text, View} from 'react-native';
+import {Groups} from './src/screens/Groups';
 
 const App = () => {
-  return (
-    <View>
-      <Text>Helloo!</Text>
-    </View>
-  );
+  return <Groups />;
 };
 
 export default App;
