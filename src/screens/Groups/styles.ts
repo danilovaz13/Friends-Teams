@@ -3,11 +3,11 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   flex: 1;
   background-color: ${({theme}) => theme.COLORS.GRAY_200};
-  align-items: center;
-  justify-content: center;
+  padding: 24px;
 `;
 
 export const Title = styled.Text`
-  color: #fff;
-  font-size: 32px;
+  color: #a1c;
+  font-size: 30px;
+  font-family: ${({theme}) => theme.FONT_FAMILY.BOLD};
 `;
