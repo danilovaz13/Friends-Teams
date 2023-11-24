@@ -1,10 +1,10 @@
-import {Container, Title} from './styles';
-import {Text} from 'react-native';
+import {Header} from '@components/Header';
+import {Container} from './styles';
 
 export function Groups() {
   return (
     <Container>
-      <Title>Danilo Bezerra Vaz</Title>
+      <Header />
     </Container>
   );
 }
