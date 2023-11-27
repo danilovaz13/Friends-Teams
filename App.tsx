@@ -1,6 +1,6 @@
 import {StatusBar} from 'react-native';
 import React from 'react';
-import {Groups} from '@screens/Groups';
+import {Players} from '@screens/Players';
 import {ThemeProvider} from 'styled-components';
 import theme from './src/theme';
 
@@ -12,7 +12,7 @@ const App = () => {
         backgroundColor="transparent"
         translucent
       />
-      <Groups />
+      <Players />
     </ThemeProvider>
   );
 };
